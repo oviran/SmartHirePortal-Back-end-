@@ -20,4 +20,3 @@ app.use("/jobApplications", jobApplicationsRouter);
 app.use(GlobalErrorHandlerMiddleware)
 
 app.listen(8000, () => console.log("Server is listening on port 8000."));
-console.log("hi");
